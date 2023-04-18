@@ -1,0 +1,17 @@
+{
+    "name": "user/php",
+    "autoload": {
+        "psr-4": {
+            "User\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mateus Garcia",
+            "email": "mateussoap@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
